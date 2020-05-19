@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+//메인슬라이드
     $('.slider-for').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -21,23 +21,6 @@ $(document).ready(function () {
  
     });
 
-    var flag = true;
-
-$('.plusbtn').click(function(){
- 
-  if(flag==true){
-    $('.plusbar').animate({left: "-273"}, 500);
-    flag = false;  
-  }
-
-else{
-  $('.plusbar').animate({left: "300"}, 500);
-  flag = true;
-}
-
-});
-
-
 //예매 버튼 자바스크립트 다른 슬라이드일때는 버튼이 안보임-------------------------------------------------------
 
   $(".post").find(".slick-slide").not(".slick-active").find("a").hide();
@@ -49,7 +32,19 @@ else{
   });
 
 //--------------------------------------------------------
+//js에서 hover 주기.
+// $('.tab-3_btn').on('mouseenter',function(){ 
+//   $('.tab-3_btn').css('color','white');     
+//   $('.tab-3_btn').css('border-bottom','2px solid #ddd');
+// });
+// $('.tab-3_btn').on('mouseleave',function(){ 
+//   $('.tab-3_btn').css('color','#737373');
+//   $('.tab-3_btn').css('border-bottom','none');
+// });
 
+//--------------------------------------------------------
+var flag = true;
+//예매권 등록 버튼 이벤트
   $('.tab-3_btn').on('click',function(){ 
 
     if(flag==true){
@@ -72,6 +67,11 @@ else{
     
     });
 
+
+
+
+
+    //예매권등록 X눌렀을때 이벤트
     $('.bookingclose').on('click',function(){ 
       $('.booking_dim').hide();
       $('.tab-1_btn').css('color','white');     
@@ -82,7 +82,7 @@ else{
   
       });
       
-
+//bell눌렀을 때 이벤트
 $('.bell').on('click',function(){ 
 
   if(flag==true){
@@ -98,7 +98,7 @@ $('.bell').on('click',function(){
   }
 
   });
-    
+    //bell X누를때 이벤트
   $('.bellpopclose').on('click',function(){ 
     $('.bellpop').hide();
     $('.bell').css({'background-image':'url(../img/mainicon.png)'});
@@ -107,28 +107,49 @@ $('.bell').on('click',function(){
   });
 
 
-
+    //search 누를때 이벤트
 $('.serch').on('click',function(){ 
 
   if(flag==true){
-    $('.serchpop').show();
+    $('.serchpop_wrap').show();
     $('.serch').css({'background-image':'url(../img/clockicon.png)'});
     flag = false;
   }
 
   else{
-    $('.serchpop').hide();
+    $('.serchpop_wrap').hide();
     $('.serch').css({'background-image':'url(../img/mainicon.png)'});
     flag = true;
   }
 
   });
     
-  $('.bellpopclose').on('click',function(){ 
-    $('.bellpop').hide();
-    flag = true;
+  // $('.bellpopclose').on('click',function(){ 
+  //   $('.bellpop').hide();
+  //   flag = true;
   
-  });
+  // });
+
+//플러스버튼 플러그인
+var flag = true;
+
+$('.plusbtn').click(function(){
+ 
+  if(flag==true){
+    $('.plusbar').animate({left: "-273"}, 500);
+    flag = false;  
+  }
+
+else{
+  $('.plusbar').animate({left: "300"}, 500);
+  flag = true;
+}
+
+});
+
+
+
+
 
 
 });

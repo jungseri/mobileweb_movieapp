@@ -36,6 +36,7 @@ header .mainicon>ul>li>a {
     height: 20px;
     background-size: 114px 90px;
     position: absolute;
+    z-index: 80;
 }
 
 header .mainicon>ul>li>a:hover {
@@ -43,6 +44,7 @@ header .mainicon>ul>li>a:hover {
     height: 20px;
     background-size: 114px 90px;
     position: absolute;
+    z-index: 80;
 }
 
 a.ticket {
@@ -70,10 +72,11 @@ a.serch {
     top: 33px;
     right: 25px;
 }
-/* 
+
+
 a.serch:hover {
     background: url(../img/clockicon.png) no-repeat -40px 0px;
-} */
+}
 
 /* 위치바------------- */
 
@@ -419,7 +422,7 @@ div.frame>a:hover {
 
 /*비회원본인인증*/
 .subtn2 {
-    width: 186px;
+    width: 195px;
     height: 23px;
     padding-top: 6px;
 }
@@ -428,7 +431,7 @@ div.frame>a:hover {
     display: inline-block;
     background: #2F2C2C;
     color: #aaa;
-    padding: 5px 50px;
+    padding: 5px 40px;
 }
 
 .bookingclose {
@@ -486,31 +489,67 @@ div.frame>a:hover {
     margin-right: 0px;
 }
 
-
-
-.serchpop{
+/*검색창*/
+.serchpop_wrap{
     display: none;
+}
+.serchpop_wrap>div.triangle {
+    top: 58px;
+    right: 31px;
+}
+.serchpop {
     position: absolute;
-    top: 34px;
-    left: 22px;
-    width: 304px;
+    top: 68px;
+    left: 42px;
+    width: 293px;
     height: 63px;
+    padding-top: 7px;
+    padding-left: 11px;
+    padding-bottom: 7px;
 }
 
-
-.serchpop>div.triangle{
-    top: 23px;
-    left: 294px;
+.serchpop>h3 {
+    /* display: inline-block; */
+    width: 250px;
+    font-size: 18px;
+    padding-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 2px;
 }
 
-.serchpop_dim {
+.txt2_label {
+    display: none;
+}
+
+#txt2 {
+    float: left;
+    width: 198px;
+    height: 27px;
+    background: #C4C4C4 url(../img/search.png) no-repeat 170px;
+    background-size: 18px;
+    border: none;
+}
+
+.serchpop_wrap>div>a {
+    display: inline-block;
+    border: white 1px solid;
+    color: white;
+    font-size: 12px;
+    width: 72px;
+    height: 24.8px;
+    text-align: center;
+    line-height: 24.8px;
+    margin-left: 11px;
+
+}
+.serchpop_wrap>div.serchpop_dim{
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9990;
+    height: 572px;
+    width: 360px;
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 572px;
-    width: 360px;
-    background: rgba(0, 0, 0, 0.5);
-    /* display: none; */
-    z-index: 9990;
 }
 
