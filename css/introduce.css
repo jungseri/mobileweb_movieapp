@@ -16,9 +16,11 @@
     color: #C4C4C4;
     float: left;
 }
+.posts_textbox>h3{
+    padding-left: 8px;
+}
 
 .posts_textbox>h3>div {
-    /* float: left; */
     width: 20px;
     height: 20px;
     overflow: hidden;
@@ -32,17 +34,23 @@
 
 .posts_txt {
     text-align: center;
-    margin: 5px;
+    height: 45px;
+margin: 2px;
     font-size: 12px;
     float: left;
+    padding-left: 10px;
 }
+.posts_p{
+    margin-top:9px;
 
+}
 
 .iconbox {
     width: 20px;
     margin-top: 4px;
     margin-left: 10px;
     float: left;
+    padding-left: 10px;
 }
 
 .iconbox>div {
@@ -56,6 +64,7 @@
 .iconbox>p {
     display: inline-block;
     width: 24px;
+
     color: white;
     font-size: 10px;
 
@@ -69,7 +78,7 @@
 .like {
     width: 20px;
     margin-top: 4px;
-
+    padding-left: 10px;
     margin-left: 10px;
     float: left;
 
