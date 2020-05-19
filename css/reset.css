@@ -88,3 +88,294 @@ h5 {
     position: absolute;
     z-index: 9999;
 }
+
+
+/*header*/
+body {
+    width: 360px;
+    height: 640px;
+    position: relative;
+    background: #181818;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 68px;
+    position: relative;
+}
+
+/*header_로고버튼*/
+a.clickbtn {
+    width: 76px;
+    height: 30px;
+    background: url(../img/smalllogo.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 27px;
+    left: 13px;
+}
+
+a.clickbtn:hover {
+    background: url(../img/smalllogo2.png) no-repeat;
+    background-size: contain;
+    /* position: absolute; top: 27px; left: 13px; */
+}
+
+/*header_icon*/
+
+header .mainicon>ul>li>a {
+    width: 20px;
+    height: 20px;
+    background-size: 114px 90px;
+    position: absolute;
+    z-index: 80;
+}
+
+header .mainicon>ul>li>a:hover {
+    width: 20px;
+    height: 20px;
+    background-size: 114px 90px;
+    position: absolute;
+    z-index: 80;
+}
+
+a.ticket {
+    background: url(../img/mainicon.png) no-repeat 0px 0px;
+    top: 33px;
+    right: 95px;
+}
+
+a.ticket:hover {
+    background: url(../img/clockicon.png) no-repeat 0px 0px;
+}
+
+a.bell {
+    background: url(../img/mainicon.png) no-repeat -20px 0px;
+    top: 33px;
+    right: 60px;
+}
+
+a.bell:hover {
+    background: url(../img/clockicon.png) no-repeat -20px 0px;
+}
+
+a.serch {
+    background: url(../img/mainicon.png) no-repeat -40px 0px;
+    top: 33px;
+    right: 25px;
+}
+
+
+a.serch:hover {
+    background: url(../img/clockicon.png) no-repeat -40px 0px;
+}
+
+/* 위치바------------- */
+.locationbar {
+    width: 100%;
+    height: 35px;
+    color: #dddddd;
+    position: relative;
+}
+
+.locationbar:hover {
+    background: #333333;
+}
+
+.locationbar>.locationicon {
+    width: 20px;
+    height: 20px;
+    background: url(../img/mainicon.png) no-repeat -60px 0px;
+    background-size: 114px 84px;
+    position: absolute;
+    top: 7px;
+    left: 57px;
+}
+
+.locationbar>h3 {
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+/*bell*/
+.bell_dim {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 572px;
+    width: 360px;
+    background: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+    z-index: 9990;
+}
+
+.bellpop {
+    height: 640px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+.bellpop>div.triangle {
+    top: 57px;
+    left: 280px;
+}
+
+.bellpop_shape {
+    width: 175px;
+    height: 254px;
+    z-index: 9995;
+    position: absolute;
+    top: 68px;
+    left: 105px;
+    padding: 20px;
+}
+
+.bellpop_shape>h2 {
+    font-size: 18px;
+}
+
+.bellpop_shape>p {
+    padding-top: 6px;
+    font-size: 10px;
+}
+
+.bellpopclose {
+    text-align: right;
+    margin-right: 0px;
+}
+
+/*검색창*/
+.serchpop_wrap{
+    display: none;
+}
+.serchpop_wrap>div.triangle {
+    top: 58px;
+    right: 31px;
+}
+.serchpop {
+    position: absolute;
+    top: 68px;
+    left: 42px;
+    width: 293px;
+    height: 63px;
+    padding-top: 7px;
+    padding-left: 11px;
+    padding-bottom: 7px;
+}
+
+.serchpop>h3 {
+    /* display: inline-block; */
+    width: 250px;
+    font-size: 18px;
+    padding-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 2px;
+}
+
+.txt2_label {
+    display: none;
+}
+
+#txt2 {
+    float: left;
+    width: 198px;
+    height: 27px;
+    background: #C4C4C4 url(../img/search.png) no-repeat 170px;
+    background-size: 18px;
+    border: none;
+}
+
+.serchpop_wrap>div>a {
+    display: inline-block;
+    border: white 1px solid;
+    color: white;
+    font-size: 12px;
+    width: 72px;
+    height: 24.8px;
+    text-align: center;
+    line-height: 24.8px;
+    margin-left: 11px;
+
+}
+.serchpop_wrap>div.serchpop_dim{
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9990;
+    height: 572px;
+    width: 360px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/*plusbtn---------------*/
+
+
+.plusbtn {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 18px;
+    right: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px #000000;
+    z-index: 999;
+    background: url(../img/mainicon.png) no-repeat -1px -31px;
+    background-size: 113px;
+
+}
+
+.plusbtn:hover {
+    background: url(../img/clockicon.png)no-repeat -1px -31px;
+    background-size: 113px
+}
+
+
+.plusbarbox {
+    width: 310px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/*스크롤바 숨기는 테두리박스*/
+
+.plusbar {
+    background: #2B2A2A;
+    width: 306px;
+    height: 38px;
+    box-shadow: 0px 4px 20px #000000;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 20px;
+    line-height: 38px;
+    transform: translateX(300px);
+}
+
+.plusbar>li {
+    float: left;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 13px;
+}
+
+.plusbar>li>a {
+    color: #aaa
+}
+
+.plusbar>li.btn1 {
+    margin-left: 15px;
+}
+
+

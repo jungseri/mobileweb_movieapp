@@ -1,0 +1,97 @@
+.movie_introduce {
+    width: 292px;
+    height: 78px;
+}
+
+.posts {
+    float: left;
+    width: 54px;
+    height: 78px;
+    background: url(../img/1917.jpg) no-repeat;
+    background-size: contain;
+}
+
+.posts_textbox {
+    font-weight: lighter;
+    color: #C4C4C4;
+    float: left;
+}
+
+.posts_textbox>h3>div {
+    /* float: left; */
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    margin-top: 4.5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background: url(../img/mainicon.png) no-repeat -94px 0px;
+    background-size: 114px 84px;
+}
+
+.posts_txt {
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    float: left;
+}
+
+
+.iconbox {
+    width: 20px;
+    margin-top: 4px;
+    margin-left: 10px;
+    float: left;
+}
+
+.iconbox>div {
+    float: left;
+    width: 17px;
+    height: 20px;
+    background: url(../img/introduce.png) no-repeat 0 0;
+    background-size: 114px;
+}
+
+.iconbox>p {
+    display: inline-block;
+    width: 24px;
+    color: white;
+    font-size: 10px;
+
+    font-weight: lighter;
+
+    height: 20px;
+    line-height: 20px;
+}
+
+
+.like {
+    width: 20px;
+    margin-top: 4px;
+
+    margin-left: 10px;
+    float: left;
+
+}
+
+.like>div {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(../img/introduce.png) no-repeat -25px 0;
+    background-size: 114px;
+    margin-left: 2px;
+}
+
+.like>p {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    line-height: 20px;
+
+    color: white;
+    font-size: 10px;
+
+    font-weight: lighter;
+}
