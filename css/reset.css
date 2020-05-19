@@ -58,9 +58,13 @@ h5 {
 /*어두워지는거*/
 .dim {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 572px;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    display: none;
+    /* display: none; */
+    z-index:9999;
 }
 
 
