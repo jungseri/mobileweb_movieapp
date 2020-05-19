@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Noto Sans KR', 'Noto Sans', 'Roboto';
+
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+
+}
+
+hr {
+    clear: both;
+    border: none;
+}
+
+.gray1 {
+    background: rgba(60, 59, 59, 0.7);
+}
+
+.gray2 {
+    background: #313131;
+}
+
+.dropshowdow {
+    box-shadow: 0px 5px 90px #000000;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+}
+
+.popups {
+    position: absolute;
+    background: #434343;
+    box-shadow: 0px 4px 20px #000000;
+    z-index: 9995;
+    color: #aaa;
+    font-weight: lighter;
+
+}
+
+/*어두워지는거*/
+.dim {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+
+.close {
+    width: 24px;
+    height: 24px;
+    background: url(../img/Fr35.png) no-repeat;
+    background-size: contain;
+    text-align: right;
+}
+
+.close:hover {
+    background: url(../img/Ffffff.png) no-repeat;
+    background-size: contain;
+}
+
+/*말풍선 삼각형*/
+.triangle {
+    border-top: 13px solid transparent;
+    border-right: 13px solid #454545;
+    position: absolute;
+    z-index: 9999;
+}

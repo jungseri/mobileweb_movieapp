@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yes24영화</title>
+
+  <!--css-->
+  <link rel="stylesheet" href="../css_main/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="../css_main/mainstyle.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" /> -->
+
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <!--javascript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <script src="../js_main/mainslide_js.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+
+    <!--bell 팝업-->
+    <div class="bellpop">
+      <div class="triangle"></div>
+      <div class="bellpop_dim"></div>
+      <div class="bellpop_shape popups">
+        <div class="bellpopclose close"></div>
+        <h2>새로운</h2>
+        <h2>알림이 없습니다.</h2>
+        <p>알림메시지는 30일동안 보관되며, 확인 여부와 상관없이 리스트에서 자동으로 삭제됩니다.</p>
+      </div>
+    </div>
+
+    <!--serch 팝업-->
+    <div class="serchpop dim">
+      <div class="triangle"></div>
+      <div class="serchpop popups">
+        <h3>영화검색</h3>
+        <label for="txt1" class="txt1_label">영화검색</label>
+        <input type="text" id="txt1" placeholder="   찾으실 영화를 검색하세요.">
+        <a href="">검색</a>
+      </div>
+    </div>
+
+
+    <header>
+      <div class="mainlogo"><a class="clickbtn" href="../html_main/main_tab1.html"></a></div>
+      <!-- 로고 : main 화면으로 -->
+      <div class="mainicon">
+        <ul>
+          <li><a href="#" class="ticket"></a></li>
+          <li><a href="#" class="bell bellchange"></a></li>
+          <li><a href="#" class="serch"></a></li>
+        </ul>
+      </div>
+
+
+      <!-- my표, 알림, 검색버튼 각 아이콘은 60*60 1픽셀씩 차이남.-->
+    </header>
+
+    <!--팝업_예매권등록-->
+    <div class="booking_dim">
+      <!-- <div class="triangle"></div> -->
+      <div class="bookingpop popups">
+        <div class="bookingclose close"></div>
+        <h2>예매권 / 할인권등록</h2>
+        <div class="numbox">
+          <label for="txt1" class="txt1_label">예매 번호 등록</label>
+          <input type="text" id="txt1" placeholder="   -를 빼고 예매번호를 입력해주세요">
+          <a href="">등록</a>
+        </div>
+        <p>- 예매권/할인권은 <b>비회원일 경우, 반드시 본인인증</b>을 하셔야만 등록 가능합니다.</p>
+        <div class="subtn2"><a href="">비회원 본인인증 하러가기</a></div>
+        <p>- 예매권/할인권 등록 후 반드시 <b>영화예매를 완료</b> 해야만 영화 관람이 가능합니다.
+        </p>
+        <p>- 입력번호 중 한자라도 틀리거나 <b>공란이 있을 시 등록이 되지 않으니</b> 정확히 확인하시고 입력해주세요.</p>
+      </div>
+    </div>
+
+
+    <div class="locationbar gray1 dropshowdow">
+      <div class="locationicon">
+        <!-- <img src="../img/mainicon.png" alt=""> -->
+      </div>
+      <h3>부산광역시 남구 대연동</h3>
+    </div>
+
+
+    <div class="wraper">
+
+      <!-- 탭메뉴 -->
+      <ul class="tabs">
+        <li class="tab-1"><a class="tab-1_btn" href="../html_main/main_tab1.html">현재상영작</a></li>
+        <li class="tab-2 tab"><a class=" tab" href="../html_main/main_tab2.html">개봉예정작</a></li>
+        <li class="tab-3 tab"><a href="#" class="tab tab-3_btn">예매권등록</a></li>
+      </ul>
+
+
+      <!-- 탭메뉴 -->
+      <!-- tab내용-1 -->
+      <div>
+        <section class="bawrap slider slider-for js-filter">
+          <!--영화1bg-->
+          <div class="div01">
+
+            <img src="../img/1917.jpg">
+
+
+            <div class="textbox">
+              <h3>
+                <div></div>1917
+              </h3>
+              <p>예매율 17 . 53 %&nbsp;&nbsp;|&nbsp;&nbsp;평점 8 . 7 %</p>
+            </div>
+            <!--textbox-->
+
+          </div>
+          <!--div01-->
+          <!--영화1bg-->
+          <!--영화2bg-->
+          <div class="div01">
+            <img src="../img/cafe.jpg">
+
+            <div class="textbox">
+              <h3>
+                <div></div>Cafe
+              </h3>
+              <p>예매율 17 . 53 %&nbsp;&nbsp;|&nbsp;&nbsp;평점 8 . 7 %</p>
+            </div>
+            <!--textbox-->
+
+          </div>
+          <!--div01-->
+          <!--영화2bg-->
+          <!--영화3bg-->
+          <div class="div01">
+            <img src="../img/lala.jpg">
+
+            <div class="textbox">
+              <h3>
+                <div></div>LaLaGirl
+              </h3>
+              <p>예매율 17 . 53 %&nbsp;&nbsp;|&nbsp;&nbsp;평점 8 . 7 %</p>
+            </div>
+            <!--textbox-->
+
+          </div>
+          <!--div01-->
+          <!--영화3bg-->
+
+
+        </section>
+        <section class="post slider slider-nav">
+
+          <div class="frame frm1">
+
+            <a href="" class="bookbtn frm1">예매</a>
+            <img class="simg" src="../img/1917.jpg">
+          </div>
+          <div class="frame frm2">
+
+            <a href="" class="bookbtn frm2">예매</a>
+            <img class="simg" src="../img/cafe.jpg">
+          </div>
+          <div class="frame frm3">
+
+            <a href="" class="bookbtn frm3">예매</a>
+            <img class="simg" src="../img/lala.jpg">
+          </div>
+
+        </section>
+      </div>
+
+      <!--tab1-->
+      <div class="plusbtn"></div>
+      <div class="plusbarbox">
+        <ul class="plusbar">
+          <li class="btn1"><a href="">영화</a></li>
+          <li><a href="">시사회</a></li>
+          <li><a href="">이벤트</a></li>
+          <li><a href="">MY</a></li>
+          <li><a href="">고객센터</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
