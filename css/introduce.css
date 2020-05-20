@@ -1,6 +1,7 @@
 .movie_introduce {
     width: 292px;
     height: 78px;
+    margin-top: 16px;
 }
 
 .posts {
@@ -17,7 +18,7 @@
     float: left;
 }
 .posts_textbox>h3{
-    padding-left: 8px;
+    padding-left:17px;
 }
 
 .posts_textbox>h3>div {
@@ -32,33 +33,50 @@
     background-size: 114px 84px;
 }
 
-.posts_txt {
+.posts_textbox>div{
     text-align: center;
     height: 45px;
-margin: 2px;
+    margin: 2px;
     font-size: 12px;
     float: left;
-    padding-left: 10px;
+
+}
+
+.posts_txt1{
+    padding-left: 20px;
+}
+.posts_txt2{
+    padding-left: 18px;
 }
 .posts_p{
     margin-top:9px;
 
 }
+.mar{
+    text-align: center;
+    margin-right: 6px;
+}
+.posts_p>span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../img/introduce.png)no-repeat -50px 0;
+    background-size: 114px;
+}
 
 .iconbox {
     width: 20px;
-    margin-top: 4px;
-    margin-left: 10px;
-    float: left;
-    padding-left: 10px;
+    padding-left: 21px;
 }
 
-.iconbox>div {
+.iconbox>button {
     float: left;
     width: 17px;
-    height: 20px;
+    height: 21px;
     background: url(../img/introduce.png) no-repeat 0 0;
     background-size: 114px;
+    margin-left: 3px;
+    border: none;
 }
 
 .iconbox>p {
@@ -70,37 +88,49 @@ margin: 2px;
 
     font-weight: lighter;
 
-    height: 20px;
-    line-height: 20px;
+padding-top: 7px;
 }
 
 
 .like {
     width: 20px;
-    margin-top: 4px;
-    padding-left: 10px;
-    margin-left: 10px;
-    float: left;
+ 
+    padding-left: 22px;
 
 }
 
-.like>div {
+.like>button {
     float: left;
     width: 20px;
     height: 20px;
     background: url(../img/introduce.png) no-repeat -25px 0;
     background-size: 114px;
     margin-left: 2px;
+    margin-top: 2px;
+    border: none;
+
 }
 
 .like>p {
     display: inline-block;
-    width: 25px;
-    height: 20px;
-    line-height: 20px;
-
+    padding-top: 6px;
     color: white;
     font-size: 10px;
+}
+.tabmenu{
+    color: #aaaaaa;
+}
 
-    font-weight: lighter;
+.tabmenu>ul>li{
+    float: left;
+    border: none;
+}
+.tabmenu>ul>li>a{
+    color: #aaaaaa;
+}
+.tabstxtgroup{
+    overflow: hidden;
+}
+.tabstxtgroup>li.tabstxt1{
+    overflow: scroll;
 }
