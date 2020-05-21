@@ -135,6 +135,7 @@ div.div01>img {
     padding-bottom: 50px;
 }
 
+
 .simg {
     width: 200px;
     margin-left: 30px;
@@ -145,15 +146,22 @@ div.div01>img {
 .post .slick-center img {
     transform: scale(1.12);
 }
-
-
+/*information가는 버튼*/
+.information{
+    width: 224px;
+    height: 322px;
+    position: absolute;
+    bottom: 33px;
+    right: 18px;
+    z-index: 66;
+}
 
 /*예매버튼*/
 .frame {
     position: relative;
 }
 
-div.frame>a {
+div.frame>a.bookbtn {
     width: 48px;
     height: 48px;
     margin: 14px;
@@ -174,7 +182,7 @@ div.frame>a {
 }
 
 /*예메버튼 애니메이션*/
-div.frame>a:hover {
+div.frame>a.bookbtn:hover {
     background: rgba(255, 255, 255, 0.5);
 }
 
@@ -239,10 +247,10 @@ div.frame>a:hover {
 
 .numbox>a {
     font-size: 12px;
-    font-weight: lighter;
     color: #aaa;
-    height: 35px;
+margin-right: 2px;
     padding: 9px;
+    float: right;
 }
 
 /*비회원본인인증*/
@@ -257,6 +265,7 @@ div.frame>a:hover {
     background: #2F2C2C;
     color: #aaa;
     padding: 5px 40px;
+    margin-left: 12.5px;
 }
 
 .bookingclose {
