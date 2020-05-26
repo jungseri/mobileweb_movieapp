@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes24영화 소개</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <!--앱에 공통적인 form-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="../css/event.css">
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" /> -->
+
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!--javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="../js/form.js"></script>
+    <!--기본formjs-->
+    <script src="../js/introduce.js"></script>
+
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!--bell 팝업-->
+        <div class="bellpop">
+            <div class="bell_dim"></div>
+            <div class="triangle"></div>
+            <div class="bellpop_shape popups">
+                <div class="bellpopclose close"></div>
+                <h2>새로운</h2>
+                <h2>알림이 없습니다.</h2>
+                <p>알림메시지는 30일동안 보관되며, 확인 여부와 상관없이 리스트에서 자동으로 삭제됩니다.</p>
+            </div>
+        </div>
+
+        <!--serch 팝업-->
+        <div class="serchpop_wrap">
+            <div class="serchpop_dim"></div>
+            <div class="triangle"></div>
+            <div class="serchpop popups">
+                <h3>영화검색</h3>
+                <label for="txt2" class="txt2_label">영화검색</label>
+                <input type="text" id="txt2" placeholder="   찾으실 영화를 검색하세요.">
+                <a href="">검색</a>
+            </div>
+        </div>
+
+
+        <header>
+            <div class="mainlogo"><a class="clickbtn" href="../html/main_tab1.html"></a></div>
+            <!-- 로고 : main 화면으로 -->
+            <div class="mainicon">
+                <ul>
+                    <li><a href="#" class="ticket"></a></li>
+                    <li><a href="#" class="bell bellchange"></a></li>
+                    <li><a href="#" class="serch"></a></li>
+                </ul>
+            </div>
+
+
+            <!-- my표, 알림, 검색버튼 각 아이콘은 60*60 1픽셀씩 차이남.-->
+        </header>
+    
+<section>
+<div class="event"><img src="../img/event.png" alt=""></div>
+<p>본 이벤트는 이벤트 종료시, 조기마감 될 수 있음을 안내드립니다.</p>
+
+
+</section>
+
+
+      <!--plusbtn-->
+      <div class="plusbtn"></div>
+      <div class="plusbarbox">
+        <ul class="plusbar">
+          <li class="btn1"><a href="">영화</a></li>
+          <li><a href="">시사회</a></li>
+          <li><a href="">이벤트</a></li>
+          <li><a href="">MY</a></li>
+          <li><a href="">고객센터</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+</body>
+</html>

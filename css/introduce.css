@@ -2,6 +2,8 @@
     width: 292px;
     height: 78px;
     margin-top: 16px;
+    margin-bottom: 10px;
+
 }
 
 .posts {
@@ -17,8 +19,9 @@
     color: #C4C4C4;
     float: left;
 }
-.posts_textbox>h3{
-    padding-left:17px;
+
+.posts_textbox>h3 {
+    padding-left: 17px;
 }
 
 .posts_textbox>h3>div {
@@ -33,7 +36,7 @@
     background-size: 114px 84px;
 }
 
-.posts_textbox>div{
+.posts_textbox>div {
     text-align: center;
     height: 45px;
     margin: 2px;
@@ -42,21 +45,25 @@
 
 }
 
-.posts_txt1{
+.posts_txt1 {
     padding-left: 20px;
 }
-.posts_txt2{
+
+.posts_txt2 {
     padding-left: 18px;
 }
-.posts_p{
-    margin-top:9px;
+
+.posts_p {
+    margin-top: 9px;
 
 }
-.mar{
+
+.mar {
     text-align: center;
     margin-right: 6px;
 }
-.posts_p>span{
+
+.posts_p>span {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -87,16 +94,13 @@
     font-size: 10px;
 
     font-weight: lighter;
-
-padding-top: 7px;
+    padding-top: 7px;
 }
 
 
 .like {
     width: 20px;
- 
     padding-left: 22px;
-
 }
 
 .like>button {
@@ -108,7 +112,6 @@ padding-top: 7px;
     margin-left: 2px;
     margin-top: 2px;
     border: none;
-
 }
 
 .like>p {
@@ -117,20 +120,79 @@ padding-top: 7px;
     color: white;
     font-size: 10px;
 }
-.tabmenu{
+
+/*tab메뉴 css*/
+.tabmenu {
     color: #aaaaaa;
 }
 
-.tabmenu>ul>li{
+.tabmenu>ul>li {
     float: left;
     border: none;
 }
-.tabmenu>ul>li>a{
+
+.tabmenu>ul>li>a {
+    width: 55px;
+    display: inline-block;
+    margin-left: 28px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tabmenu>ul>li>a.tabs {
+    color: #737373;
+}
+
+.tabs1 {
     color: #aaaaaa;
+    border-bottom: 2px solid #aaaaaa;
 }
-.tabstxtgroup{
-    overflow: hidden;
+
+.tabmenu>ul>li>a:hover {
+    color: #aaaaaa;
+    border-bottom: 2px solid #aaaaaa;
 }
-.tabstxtgroup>li.tabstxt1{
-    overflow: scroll;
+
+/*스크롤바 정보 자연스럽게 그라데이션*/
+.dimdesign {
+    width: 360px;
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(36, 35, 35, 0) 0%, #181818 83.33%);
 }
+
+/*tabstxt1_스크롤바 디자인*/
+.tabstxtgroup>li {
+    width: 300px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 12px;
+}
+
+.tabstxt1::-webkit-scrollbar {
+    /*스크롤바 전체*/
+    width: 6px;
+}
+
+.tabstxt1::-webkit-scrollbar-thumb {
+    /*스크롤바 막대*/
+    background-color: #242323;
+    border-radius: 10px;
+
+}
+
+.tabstxt1::-webkit-scrollbar-track {
+    /*스크롤바 여백*/
+    background-color: #000000;
+    border-radius: 10px;
+}
+/* .tabstxt2>ul>li>div{
+    background: url(../img/);
+
+} */

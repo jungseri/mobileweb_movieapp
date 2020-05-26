@@ -1,0 +1,92 @@
+section{
+    position: relative;
+}
+section>h3 {
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+}
+section>h3>a{
+    width: 360px;
+    height: 49px;
+    color: white;
+}
+
+/*티겟박스*/
+.ticketbox {
+    width: 312px;
+    height: 346px;
+    border: 1px #aaaaaa solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ticketbox>ul>li {
+    height: 53px;
+    margin: 10px;
+    background: url(../img/movieframe.png)no-repeat 0 0;
+    background-size: cover;
+}
+
+.ticketbox>ul>li>a>p{
+    float: left;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.cinema{
+    width: 72px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+}
+
+.cinema1{
+    width: 72px;
+    word-break:keep-all;
+    text-align: center;
+    padding-top: 8px;
+}
+.time{
+   padding-left: 65px;
+   line-height: 53px;
+}
+.type{
+    padding-left: 69px;
+    line-height: 53px;
+}
+/*ticketbox_스크롤바 디자인*/
+
+
+.ticketbox::-webkit-scrollbar {
+    /*스크롤바 전체*/
+    width: 6px;
+}
+.ticketbox::-webkit-scrollbar-thumb {
+    /*스크롤바 막대*/
+    background-color: #242323;
+    border-radius: 10px;
+
+}
+.ticketbox::-webkit-scrollbar-track {
+    /*스크롤바 여백*/
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+
+/*광고배너*/
+.adbox {
+    text-align: center;
+}
+
+.adbox>a>img {
+    width: 284px;
+}
+
+.adbox>a {
+    width: 284px;
+    height: 46px;
+}
