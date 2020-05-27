@@ -11,7 +11,25 @@ section>h3>a{
     height: 49px;
     color: white;
 }
+.addbtn{
+    position: absolute;
+    top: 33px;
+    left: 152px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/addbtn.png) no-repeat;
+    background-size: 43px;
+}
+.addbtn:hover{
+    position: absolute;
+    top: 33px;
+    left: 152px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/addbtn.png) no-repeat -14px 0px;
+    background-size: 43px;
 
+}
 /*티겟박스*/
 .ticketbox {
     width: 312px;
@@ -90,3 +108,23 @@ section>h3>a{
     width: 284px;
     height: 46px;
 }
+
+
+/*ticketbox애니메이션*/
+.tic {
+    animation-duration: 3s;
+    animation-name: slidein;
+
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+      /* width: 100% */
+    }
+  
+    to {
+      margin-top: 0%;
+      /* width: 100%; */
+    }
+  }

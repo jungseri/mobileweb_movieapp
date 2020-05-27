@@ -1,0 +1,71 @@
+section>h5>a{
+    color: white;
+    font-size: 17px;
+}
+section>a{
+    color: #aaaaaa;
+font-size: 10px;
+}
+.month{
+    width: 14px;
+    height: 14px;
+position: absolute;
+top: 71px;left: 89px;
+    background: url(../img/addbtn.png)no-repeat -29px 0px;
+background-size: 43px;
+}
+.addbtn{
+    position: absolute;
+    top: 124px;
+    left: 65px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/addbtn.png) no-repeat;
+    background-size: 43px;
+}
+.addbtn:hover{
+    position: absolute;
+    top: 124px;
+    left: 65px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/addbtn.png) no-repeat -14px 0px;
+    background-size: 43px;
+
+}
+.movieinfo{
+    height:20px;
+}
+
+.remove{
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 7px;
+}
+.remove>a{
+    color: #aaaaaa;
+font-size: 12px;
+
+}
+.screen{
+    width: 350px;
+    height: 273px;
+    background: url(../img/cinama.png) no-repeat;
+    background-size: contain;
+    
+}
+.paybtn{
+text-align: center;
+margin-top: 20px;
+}
+.paybtn>a{
+    color:white;
+    font-size: 12px;
+ padding: 10px 47px;
+ border: 1px solid white;
+ text-align: center;
+}
+
+.paybtn>a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
