@@ -1,0 +1,128 @@
+section{
+    position: relative;
+}
+section>h3 {
+    /* width: 100px; */
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+section>h3>div {
+    float: left;
+    margin-right:5px ;
+    margin-top: 3.5px;
+    width:20px;
+    height:30px;
+    background: url(../img/clockicon.png) no-repeat 0 0;
+    background-size: 114px 90px;
+}
+.addbtn{
+    position: absolute;
+    top: 33px;
+    left: 152px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/addbtn.png) no-repeat;
+    background-size: 43px;
+}
+.addbtn:hover{
+    position: absolute;
+    top: 33px;
+    left: 152px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/addbtn.png) no-repeat -14px 0px;
+    background-size: 43px;
+
+}
+/*티겟박스*/
+.ticketbox {
+    width: 312px;
+    height: 346px;
+    border: 1px #aaaaaa solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ticketbox>ul>li {
+
+    height: 118px;
+    margin: 10px;
+    background: url(../img/framemyticket.png)no-repeat 0 0;
+    background-size: contain;
+}
+
+.ticketbox>ul>li>a>p{
+    float: left;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.cinema{
+    width: 72px;
+    height: 53px;
+    text-align: center;
+    line-height: 118px;
+}
+.tic>a>p.time,p.type,p.men,p.title{
+    padding-left: 17px;
+       line-height: 118px;
+}
+
+
+/*ticketbox_스크롤바 디자인*/
+
+
+.ticketbox::-webkit-scrollbar {
+    /*스크롤바 전체*/
+    width: 6px;
+}
+.ticketbox::-webkit-scrollbar-thumb {
+    /*스크롤바 막대*/
+    background-color: #242323;
+    border-radius: 10px;
+
+}
+.ticketbox::-webkit-scrollbar-track {
+    /*스크롤바 여백*/
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+
+/*광고배너*/
+.adbox {
+    text-align: center;
+}
+
+.adbox>a>img {
+    width: 284px;
+}
+
+.adbox>a {
+    width: 284px;
+    height: 46px;
+}
+
+
+/*ticketbox애니메이션*/
+.tic {
+    animation-duration: 3s;
+    animation-name: slidein;
+
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+      /* width: 100% */
+    }
+  
+    to {
+      margin-top: 0%;
+      /* width: 100%; */
+    }
+  }
