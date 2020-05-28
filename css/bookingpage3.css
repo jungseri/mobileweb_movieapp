@@ -1,0 +1,270 @@
+body{
+overflow: hidden;
+}
+
+.movie_introduce {
+/* margin-left: 15px; */
+border: 1px solid #aaaaaa;
+width: 331px;
+height: 152px;
+padding: 15px 0px;
+margin-top: 10px;
+border-radius: 6px;
+
+}
+
+.posts {
+    border-radius: 3px;
+    float: left;
+    width: 106px;
+    height: 152px;
+    background: url(../img/1917.jpg) no-repeat;
+    background-size: contain;
+    margin-left: 15px;
+  
+}
+
+.posts_textbox {
+    font-weight: lighter;
+    color: #C4C4C4;
+    float: left;
+}
+
+.posts_textbox>h3 {
+    padding-left: 15px;
+    font-size: 24px;
+}
+
+.posts_textbox>h3>div {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    margin-top: 8.5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background: url(../img/mainicon.png) no-repeat -94px 0px;
+    background-size: 114px 84px;
+}
+
+.posts_textbox>div {
+ 
+    height: 45px;
+    margin: 2px;
+    font-size: 15px;
+    float: left;
+
+}
+
+.posts_txt1 {
+    padding-left: 15px;
+}
+.btn{
+padding-top: 5px;
+    font-size: 12px;
+    color: #aaaaaa;
+    text-align: right;
+    padding-left: 112px;
+}
+.btn>a{
+    color: #aaaaaa;
+}
+.pointbtn{
+    width: 156px;
+    height: 36px;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+    margin-left: 15px;
+
+
+}
+.pointbtn>a{
+padding: 10px 30px;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+.pointbtn:hover{
+    background: rgba(225, 225, 225, 0.3);
+}
+
+.article3{
+    padding-top: 20px;
+    color: #aaaaaa;
+
+}
+.article3>h3{
+    font-size: 12px;
+ 
+}
+.article3>h3>div{
+    width: 13px;
+    height: 13px;
+    background: url(../img/iconmoney.png)no-repeat 0 0;
+    background-size: 13px;
+    display: inline-block;
+    margin-right:3px;
+
+}
+
+.article3>ul{
+    margin: 0 auto;
+    width: 302px;
+    margin-top: 15px;
+    height: 72px;
+}
+.article3>ul>li{
+    width: 37px;
+    height: 39px;
+    font-size: 10px;
+    padding-right: 31.5px;
+float: left;
+text-align: center;
+padding-left: 31.5px;
+padding-top: 10px;
+}
+.article3>ul>li:hover{
+    background: rgba(225, 225, 225, 0.3);
+}
+.article3>ul>li>div{
+ background-size: contain;
+    border: none; 
+    text-align: center;
+  
+}
+.article3>ul>li>div.btn00{
+    width: 20px;
+    height: 15px;
+}
+.article3>ul>li>p{
+    padding-top: 5px;
+}
+.btn01{
+    width: 10px;
+    height: 15px;
+}
+
+.btn001{
+    border-right: 1px solid white;
+
+}
+.btn002{
+    border-right: 1px solid white;
+}
+.btn001>div{
+    background: url(../img/payicon1.png) no-repeat 0 0;
+}
+.btn002>div{
+    background: url(../img/payicon2.png) no-repeat 0 0;
+}
+.btn003>div{
+    background: url(../img/payicon3.png) no-repeat 0 0;
+
+}
+.closepay{
+    width: 300px;
+    height: 60px;
+text-align: center;
+line-height: 40px;
+}
+.closepay>a{
+        border: #fff 1px solid;
+        padding: 9px 55px;
+        border-radius: 3px;
+        color: #aaaaaa;
+        font-size: 12px;
+}
+
+/*광고배너*/
+.adbox {
+    text-align: center;
+}
+
+.adbox>a>img {
+    width: 284px;
+}
+
+.adbox>a {
+    width: 284px;
+    height: 46px;
+}
+.art4_wrap{
+    width: 360px;
+    height: 140px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+}
+
+.article4{
+    width: 360px;
+    height: 135px;
+    box-shadow: 0px -10px 13px rgba(0, 0, 0, 0.8);
+    background: #313131;
+    position: absolute;
+    bottom: 0px;
+    animation: popup 1s Alternate;
+    z-index: 9888;
+
+}
+@keyframes popup {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 0px;
+    }
+   
+}
+
+.down{
+    margin-left: 168px;
+    margin-top: 20px;
+    width: 24px;
+    height: 8px;
+    padding: 10px;
+    background: url(../img/down.png)no-repeat 0 0;
+    background-size: contain;
+    border: none;
+}
+
+.article4_textbox{
+    color: #ffffff;
+    padding-left: 21px;
+}
+
+
+.article4_textbox>p{
+    font-size: 12px;
+ padding-top: 14px;
+ color: #aaaaaa;
+}
+
+
+.article4_textbox>a{
+    border: #ffffff 1px solid;
+    padding: 18px 29px;
+    border-radius: 2px;
+    position: absolute;
+    right: 23px;bottom: 27px;
+    color: #ffffff;
+}
+.paybtn{
+    margin-top: 25px;
+    text-align: center;
+    width: 229px;
+    height: 40px;
+    z-index: 9999;
+}
+.paybtn1{
+    padding: 10px 80px;
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+    font-size: 12px;
+    border-radius: 3px;
+    z-index: 9999;
+   
+}
