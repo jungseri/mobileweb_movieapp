@@ -1,10 +1,13 @@
 section{
+    width: 360px;
+    height: 537px;
     position: relative;
 }
 section>h3 {
     color: white;
     font-size: 14px;
     padding-top: 8px;
+    margin-left: 23px;
 }
 section>h3>a{
     width: 360px;
@@ -14,7 +17,7 @@ section>h3>a{
 .addbtn{
     position: absolute;
     top: 33px;
-    left: 152px;
+    left: 175px;
     width: 14px;
     height: 14px;
     background: url(../img/addbtn.png) no-repeat;

@@ -1,23 +1,33 @@
+section{
+    width: 360px;
+    height: 537px;
+}
+section>h5{
+    margin-left: 14px;
+}
 section>h5>a{
     color: white;
     font-size: 17px;
+    /* margin-left: 14px; */
+  
 }
 section>a{
     color: #aaaaaa;
 font-size: 10px;
+margin-left: 14px;
 }
 .month{
     width: 14px;
     height: 14px;
 position: absolute;
-top: 71px;left: 89px;
+top: 71px;left:103px;
     background: url(../img/addbtn.png)no-repeat -29px 0px;
 background-size: 43px;
 }
 .addbtn{
     position: absolute;
-    top: 124px;
-    left: 65px;
+    top: 126px;
+    left: 82px;
     width: 14px;
     height: 14px;
     background: url(../img/addbtn.png) no-repeat;
@@ -40,7 +50,8 @@ background-size: 43px;
 .remove{
     text-align: right;
     padding-bottom: 5px;
-    padding-right: 7px;
+    padding-right: 14px;
+
 }
 .remove>a{
     color: #aaaaaa;
@@ -56,7 +67,6 @@ font-size: 12px;
 }
 .paybtn{
 text-align: center;
-margin-top: 20px;
 }
 .paybtn>a{
     color:white;
@@ -64,8 +74,13 @@ margin-top: 20px;
  padding: 10px 47px;
  border: 1px solid white;
  text-align: center;
+z-index: 9999;
+ position: absolute;
+bottom: 70px;
+left: 100px;
 }
 
 .paybtn>a:hover {
     background: rgba(255, 255, 255, 0.5);
+ 
 }

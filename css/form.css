@@ -9,7 +9,7 @@ body {
 
 /*header*/
 header {
-    width: 100%;
+    width: 360px;
     height: 68px;
     position: relative;
 }
@@ -82,7 +82,7 @@ a.serch:hover {
 
 /* 위치바------------- */
 .locationbar {
-    width: 100%;
+    width: 360px;
     height: 35px;
     color: #dddddd;
     position: relative;
@@ -286,5 +286,4 @@ a.serch:hover {
 .plusbar>li.btn1 {
     margin-left: 15px;
 }
-
 
