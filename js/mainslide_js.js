@@ -15,7 +15,7 @@ $(document).ready(function () {
     dots: false,
     centerMode: true,
     focusOnSelect: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
 
